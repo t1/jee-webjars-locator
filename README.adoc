@@ -1,0 +1,5 @@
+= JEE WebJars Locator
+
+Provides a way to locate WebJars resources in a JEE/JAX-RS environment without the need to repeat the version of the WebJar in the path.
+
+It also provides static files (and with the correct `Content-Type` derived from the file extension) when the application is in the root path, e.g. when the `.war` file is called `ROOT.war` in WildFly.

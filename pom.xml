@@ -139,7 +139,7 @@
                     <plugin>
                         <!-- but don't run gpg everywhere, esp. not in github actions -->
                         <artifactId>maven-gpg-plugin</artifactId>
-                        <version>3.0.1</version>
+                        <version>3.2.7</version>
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>

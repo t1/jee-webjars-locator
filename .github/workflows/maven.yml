@@ -3,13 +3,13 @@ name: Java CI
 on:
   push:
   pull_request:
-  schedule: [ cron: '1 17 * * 5' ] # weekly: At 17:01 on Friday
+  schedule: [ cron: '12 10 * * 5' ]
 
 jobs:
   build:
     strategy:
       matrix:
-        jdk: [ 17, 21 ]
+        jdk: [ 17, 21, 24 ]
     runs-on: ubuntu-latest
 
     steps:
